@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		799452912AB3CEE800476886 /* QualAirApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799452902AB3CEE800476886 /* QualAirApp.swift */; };
+		799452932AB3CEE800476886 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799452922AB3CEE800476886 /* ContentView.swift */; };
+		799452952AB3CEEB00476886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799452942AB3CEEB00476886 /* Assets.xcassets */; };
+		799452992AB3CEEB00476886 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799452982AB3CEEB00476886 /* Preview Assets.xcassets */; };
+		799452A02AB3CF2500476886 /* AirQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994529F2AB3CF2500476886 /* AirQuality.swift */; };
+		79F9C5972AB620180095FB37 /* AirQualityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F9C5962AB620180095FB37 /* AirQualityViewModel.swift */; };
+		79F9C5DE2AB758770095FB37 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F9C5DD2AB758770095FB37 /* Location.swift */; };
+		79F9C5E02AB75A0C0095FB37 /* AirQualityAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F9C5DF2AB75A0C0095FB37 /* AirQualityAPI.swift */; };
+		79F9C5E22AB75A860095FB37 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F9C5E12AB75A860095FB37 /* LocationManager.swift */; };
+		79F9C5E42AB75AB30095FB37 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F9C5E32AB75AB30095FB37 /* FavoritesViewModel.swift */; };
+		79F9C5E82AB75ADA0095FB37 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F9C5E72AB75ADA0095FB37 /* FavoritesView.swift */; };
+		79F9C5EA2AB75B0A0095FB37 /* AddFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F9C5E92AB75B0A0095FB37 /* AddFavoriteView.swift */; };
+		79F9C5EC2AB75B720095FB37 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F9C5EB2AB75B720095FB37 /* LocationViewModel.swift */; };
+		79F9C5EE2AB75C8E0095FB37 /* AirQualityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F9C5ED2AB75C8E0095FB37 /* AirQualityView.swift */; };
+		79F9C6202AB796DE0095FB37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F9C61F2AB796DE0095FB37 /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7994528D2AB3CEE800476886 /* QualAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QualAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		799452902AB3CEE800476886 /* QualAirApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualAirApp.swift; sourceTree = "<group>"; };
+		799452922AB3CEE800476886 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		799452942AB3CEEB00476886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		799452962AB3CEEB00476886 /* QualAir.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QualAir.entitlements; sourceTree = "<group>"; };
+		799452982AB3CEEB00476886 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7994529F2AB3CF2500476886 /* AirQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQuality.swift; sourceTree = "<group>"; };
+		79F9C5962AB620180095FB37 /* AirQualityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityViewModel.swift; sourceTree = "<group>"; };
+		79F9C5D32AB67ED80095FB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F9C5DD2AB758770095FB37 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		79F9C5DF2AB75A0C0095FB37 /* AirQualityAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityAPI.swift; sourceTree = "<group>"; };
+		79F9C5E12AB75A860095FB37 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		79F9C5E32AB75AB30095FB37 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		79F9C5E72AB75ADA0095FB37 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		79F9C5E92AB75B0A0095FB37 /* AddFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavoriteView.swift; sourceTree = "<group>"; };
+		79F9C5EB2AB75B720095FB37 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		79F9C5ED2AB75C8E0095FB37 /* AirQualityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityView.swift; sourceTree = "<group>"; };
+		79F9C61F2AB796DE0095FB37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7994528A2AB3CEE800476886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		799452842AB3CEE800476886 = {
+			isa = PBXGroup;
+			children = (
+				7994528F2AB3CEE800476886 /* QualAir */,
+				7994528E2AB3CEE800476886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7994528E2AB3CEE800476886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7994528D2AB3CEE800476886 /* QualAir.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7994528F2AB3CEE800476886 /* QualAir */ = {
+			isa = PBXGroup;
+			children = (
+				799452902AB3CEE800476886 /* QualAirApp.swift */,
+				79F9C5952AB61DF90095FB37 /* Models */,
+				79F9C5D72AB744BD0095FB37 /* Views */,
+				79F9C5DC2AB74FB40095FB37 /* ViewModels */,
+				79F9C6212AB7983D0095FB37 /* Services */,
+				79F9C59B2AB66D950095FB37 /* Resources */,
+				799452972AB3CEEB00476886 /* Preview Content */,
+				799452962AB3CEEB00476886 /* QualAir.entitlements */,
+				79F9C5D32AB67ED80095FB37 /* Info.plist */,
+			);
+			path = QualAir;
+			sourceTree = "<group>";
+		};
+		799452972AB3CEEB00476886 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				799452982AB3CEEB00476886 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79F9C5952AB61DF90095FB37 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7994529F2AB3CF2500476886 /* AirQuality.swift */,
+				79F9C5DD2AB758770095FB37 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		79F9C59B2AB66D950095FB37 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				799452942AB3CEEB00476886 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		79F9C5D72AB744BD0095FB37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				799452922AB3CEE800476886 /* ContentView.swift */,
+				79F9C5E72AB75ADA0095FB37 /* FavoritesView.swift */,
+				79F9C5E92AB75B0A0095FB37 /* AddFavoriteView.swift */,
+				79F9C5ED2AB75C8E0095FB37 /* AirQualityView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79F9C5DC2AB74FB40095FB37 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				79F9C5962AB620180095FB37 /* AirQualityViewModel.swift */,
+				79F9C5E32AB75AB30095FB37 /* FavoritesViewModel.swift */,
+				79F9C5EB2AB75B720095FB37 /* LocationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		79F9C6212AB7983D0095FB37 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				79F9C5DF2AB75A0C0095FB37 /* AirQualityAPI.swift */,
+				79F9C5E12AB75A860095FB37 /* LocationManager.swift */,
+				79F9C61F2AB796DE0095FB37 /* SceneDelegate.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7994528C2AB3CEE800476886 /* QualAir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7994529C2AB3CEEB00476886 /* Build configuration list for PBXNativeTarget "QualAir" */;
+			buildPhases = (
+				799452892AB3CEE800476886 /* Sources */,
+				7994528A2AB3CEE800476886 /* Frameworks */,
+				7994528B2AB3CEE800476886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QualAir;
+			productName = QualAir;
+			productReference = 7994528D2AB3CEE800476886 /* QualAir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		799452852AB3CEE800476886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7994528C2AB3CEE800476886 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 799452882AB3CEE800476886 /* Build configuration list for PBXProject "QualAir" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 799452842AB3CEE800476886;
+			productRefGroup = 7994528E2AB3CEE800476886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7994528C2AB3CEE800476886 /* QualAir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7994528B2AB3CEE800476886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799452992AB3CEEB00476886 /* Preview Assets.xcassets in Resources */,
+				799452952AB3CEEB00476886 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		799452892AB3CEE800476886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F9C5E82AB75ADA0095FB37 /* FavoritesView.swift in Sources */,
+				79F9C5E02AB75A0C0095FB37 /* AirQualityAPI.swift in Sources */,
+				799452A02AB3CF2500476886 /* AirQuality.swift in Sources */,
+				79F9C5EE2AB75C8E0095FB37 /* AirQualityView.swift in Sources */,
+				79F9C5E42AB75AB30095FB37 /* FavoritesViewModel.swift in Sources */,
+				79F9C5972AB620180095FB37 /* AirQualityViewModel.swift in Sources */,
+				79F9C5E22AB75A860095FB37 /* LocationManager.swift in Sources */,
+				79F9C5EC2AB75B720095FB37 /* LocationViewModel.swift in Sources */,
+				79F9C6202AB796DE0095FB37 /* SceneDelegate.swift in Sources */,
+				79F9C5EA2AB75B0A0095FB37 /* AddFavoriteView.swift in Sources */,
+				799452932AB3CEE800476886 /* ContentView.swift in Sources */,
+				799452912AB3CEE800476886 /* QualAirApp.swift in Sources */,
+				79F9C5DE2AB758770095FB37 /* Location.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7994529A2AB3CEEB00476886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7994529B2AB3CEEB00476886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7994529D2AB3CEEB00476886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QualAir/QualAir.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QualAir/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QualAir/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location in order to show you the air quality data around you";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Milan-Dutta.QualAir";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7994529E2AB3CEEB00476886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QualAir/QualAir.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QualAir/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QualAir/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location in order to show you the air quality data around you";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Milan-Dutta.QualAir";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		799452882AB3CEE800476886 /* Build configuration list for PBXProject "QualAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7994529A2AB3CEEB00476886 /* Debug */,
+				7994529B2AB3CEEB00476886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7994529C2AB3CEEB00476886 /* Build configuration list for PBXNativeTarget "QualAir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7994529D2AB3CEEB00476886 /* Debug */,
+				7994529E2AB3CEEB00476886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 799452852AB3CEE800476886 /* Project object */;
+}
